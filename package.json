@@ -1,0 +1,28 @@
+{
+  "name": "stylelint-config-amo",
+  "version": "1.0.0",
+  "description": "The static SCSS scanning-analysis rules for the AMO company",
+  "main": "stylelint-config-bestpractice.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stuartZhang/stylelint-config-amo.git"
+  },
+  "keywords": [
+    "stylelint"
+  ],
+  "author": "StuartZhang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stuartZhang/stylelint-config-amo/issues"
+  },
+  "homepage": "https://github.com/stuartZhang/stylelint-config-amo#readme",
+  "dependencies": {
+    "stylelint-config-standard": "^18.0.0",
+    "eslint-config-amo": "file:../eslint-config-amo",
+    "eslint-plugin-amo": "file:../eslint-plugin-amo"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.3",
+    "eslint": "^4.13.0"
+  }
+}
