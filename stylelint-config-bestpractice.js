@@ -66,7 +66,7 @@ module.exports = {
     'value-list-comma-newline-after': 'always-multi-line',
     'value-list-comma-space-after': 'always-single-line',
     'value-list-comma-space-before': 'never',
-    'font-family-no-missing-generic-family-keyword': 'never'
+    'font-family-no-missing-generic-family-keyword': false
   },
   'ignoreFiles': [
     'dist/**/*.css',
