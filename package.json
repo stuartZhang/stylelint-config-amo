@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-amo",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "The static SCSS scanning-analysis rules for the AMO company",
   "main": "stylelint-config-bestpractice.js",
   "repository": {
@@ -17,12 +17,12 @@
   },
   "homepage": "https://github.com/stuartZhang/stylelint-config-amo#readme",
   "dependencies": {
-    "stylelint-config-standard": "^18.0.0",
-    "eslint-config-amo": "file:../eslint-config-amo",
-    "eslint-plugin-amo": "file:../eslint-plugin-amo"
+    "stylelint-config-standard": "^18.0.0"
   },
   "devDependencies": {
     "babel-eslint": "^8.0.3",
-    "eslint": "^4.13.0"
+    "eslint": "^4.13.0",
+    "eslint-config-minxing": "^0.0.23",
+    "eslint-plugin-minxing": "^0.0.4"
   }
 }
