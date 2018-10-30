@@ -66,7 +66,10 @@ module.exports = {
     'value-list-comma-newline-after': 'always-multi-line',
     'value-list-comma-space-after': 'always-single-line',
     'value-list-comma-space-before': 'never',
-    'CssSyntaxError': false
+    'CssSyntaxError': false,
+    'at-rule-no-unknown': [true, {
+        ignoreAtRules: ['/.*/']
+    }]
   },
   'ignoreFiles': [
     'dist/**/*.css',
